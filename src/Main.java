@@ -1,42 +1,18 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Hello World!1");
-        System.out.println("Hello World!4");
-
-        System.out.println("Hello77 World!5");
-
-        System.out.println("Hello World!6");
-
-        System.out.println("Hello World!8");
-        System.out.println("Hello World!69");
-
-        System.out.println("Hello World!90");
-        System.out.println("Hello World!869")
-
-
-        ddddddd;
-
-    }
+        git fetch              # update 'master' from remote
+        git tag base master    # mark our base point
+        git rebase -i master   # rewrite some commits
+        git push --force-with-lease=master:base master:master
 }
 <head>
 <title>Hello gt</title>
         + <script>console.log("hello git!")</script>
 </head>
-<html>
-<head>
-<title>Hello gt</title>
-</head>
-<body>
-    First git repo
-</body>
-</html>
-<head>
-<title>Hello gt<title>
-	+ <script>console.log("hello git!")</script>
-</head>
-51ee36c4e6aae1c25b0a089e3928e8b565dee90a51ee36c4e6aae1c25b0
-    a089e3928e8b565dee90a51ee36c4e6aae1c25b0a089e3928e
-    8b565dee90a51ee36c4e6aae1c25b0a089e3928e8b565dee90a51
-    ee36c4e6aae1c25b0a089e3928e8b565dee90a
+        git push [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-run] [--receive-pack=<git-receive-pack>]
+        [--repo=<repository>] [-f | --force] [-d | --delete] [--prune] [-v | --verbose]
+        [-u | --set-upstream] [--push-option=<string>]
+        [--[no-]signed|--signed=(true|false|if-asked)]
+        [--force-with-lease[=<refname>[:<expect>]]]
+        [--no-verify] [<repository> [<refspec>…​]]
