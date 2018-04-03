@@ -16,3 +16,8 @@ public class Main {
         [--[no-]signed|--signed=(true|false|if-asked)]
         [--force-with-lease[=<refname>[:<expect>]]]
         [--no-verify] [<repository> [<refspec>…​]]
+
+    git fetch              # update 'master' from remote
+    git tag base master    # mark our base point
+    git rebase -i master   # rewrite some commits
+    git push --force-with-lease=master:base master:master
