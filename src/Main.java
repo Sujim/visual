@@ -17,5 +17,22 @@ public class Main {
 
 
         ddddddd;
+
     }
 }
+<head>
+<title>Hello gt</title>
+        + <script>console.log("hello git!")</script>
+</head>
+<html>
+<head>
+<title>Hello gt</title>
+</head>
+<body>
+    First git repo
+</body>
+</html>
+<head>
+<title>Hello gt<title>
+	+ <script>console.log("hello git!")</script>
+</head>
